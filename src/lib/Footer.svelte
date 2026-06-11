@@ -55,7 +55,7 @@
         position: absolute;
         bottom: 0;
 		z-index: 1;
-		border-top: 1px solid #920505;
+		border-top: 1px solid #FC4C02;
 		padding: 30px 0 60px;
 		text-align: center;
 		color: #777;
@@ -86,8 +86,8 @@
 	}
 
 	.navLink:hover {
-		color: #920505;
-	}
+    color: #FC4C02;
+    }
 
 	.updateNotice {
 		color: var(--g999);
