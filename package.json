@@ -44,7 +44,7 @@
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "npm run prepare && vite build",
     "build-docker": "DOCKER_BUILD=true vite build --verbose",
     "docker-build": "docker build . -t $USER/league-page:latest",
     "docker-run": "npm run docker-build && docker run -p 3000:3000 $USER/league-page:latest",
